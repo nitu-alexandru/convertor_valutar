@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src = "js/javascript.js"></script>
+</head>
+<body>
+    <div class = "table_main">
+        
+        <div class = "rand_1">
+            <img src = "img/white.png" alt="simboluri" height="30px" width = "35px"/>
+            <p class = "titlu"> Convertor vautar </p>
+        </div>
+
+        <div class = "rand_2">
+            <p class = "text1"> Doresc sa schimb din</p>
+
+            <select id = "select" onchange="schimba_din()">
+                <option id = "op0" value = "-" selected> Selecteaza</option>    
+                <option id = "op1" value = "euro">EUR </option>
+                 <option id = "op2" value = "dolari americani"> USD </option>
+                 <option id = "op3" value = "lei">RON </option>
+             </select>
+
+             <p class = "text2"> in valuta</p>
+
+            <select id = "select2" onchange="schimba_in()">
+                    <option id = "op00" value = "-" selected> Selecteaza</option>
+                    <option id = "op11" value = "euro"> EUR </option>
+                    <option id = "op22" value = "dolari americani"> USD </option>
+                    <option id = "op33" value = "lei"> RON </option>
+            </select>
+        </div>
+        
+        <div class = "rand_3">
+             <p class = "mesaj_1_rand_2"> la cursul valutar de </p>
+          
+              <input id = "curs_valutar" class = "curs_v" placeholder="Curs valutar">
+          
+            <p id = "paritatea"> - / - </p>
+            <p class = "mesaj_2_rand_3"> suma in valoare de </p>
+        </div>
+
+        <div class = "rand_4">
+            <input id = "val_lei" class = "input_lei" placeholder = "Valoare de schimb">  
+            <button class = "schimba_bani" id = "converteste_bani" onClick = "schimba_bani()"> SCHIMBA</button> 
+        </div>
+
+        <div class = "rand_5" id = "r_5">
+            
+        </div>
+    </div>
+    
+    <div class = "git">
+        <a href = "https://github.com/nitu-alexandru/convertor_valutar" class = "link_git"> <img class = "img_git" src = "img/github.png"></a>
+        <a href ="https://github.com/nitu-alexandru/convertor_valutar" class = "link_git"> Here is the Github repository </a>
+    </div>
+</body>
+
