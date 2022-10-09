@@ -1,0 +1,192 @@
+html{
+    height: 100%;
+    display: grid;
+    justify-content:center;
+}
+body{
+    margin-top:30%;
+    background: linear-gradient(30deg, rgb(61, 3, 16) 0%, rgb(13, 11, 83) 100%);
+    background-repeat: no-repeat;
+}
+
+.table_main{
+    width: 695px;
+    height:205px;
+    position: relative;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.993) 0px 6px 12px;
+    border-radius: 10px;
+    background-color: #4C4F56;
+}
+
+.rand_1{
+    width:695px;
+    height:45px;
+    background-color: #34383C;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    
+}
+
+.rand_1 img {
+    margin-left:20px; 
+}
+
+.titlu {
+    margin-left: 10px;
+    color: white;
+    font-size:22px;
+}
+.rand_2{
+    width:613px;
+    height:30px;
+    /* background-color:azure;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    gap:15px;
+    margin:10px 20px 0px 20px;
+    align-items: center;
+}
+
+.rand_3{
+    width:613px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 20px 0px 20px;
+    gap:15px;
+}
+
+.rand_4{
+    width:283px;
+    height:30px;
+    /*background-color: azure; */
+    display: grid;
+    margin:10px 0px 0px 20px;
+    gap:15px;
+    align-items: center;
+}
+
+.rand_5{
+    width:613px;
+    height:30px;
+    /* background-color: #e0afd7;*/
+    display: grid;
+    margin:10px 0px 5px 20px;
+    gap:15px;
+}
+
+.text1, .text2, .mesaj_1_rand_2, .mesaj_2_rand_3, #paritatea, .rezultat_schimb {
+    margin: 0;
+    color: white;
+    font-size:21px;
+}
+
+.text1 {
+    width: 182px;
+    grid-column: 1;
+}
+.text2 {
+    width:100px;
+    grid-column: 3;
+    text-align: center;
+}
+.mesaj_1_rand_2{
+    grid-column:1;
+    width:182px;   
+    text-align-last:justify;
+}
+
+#paritatea{
+    text-align: center; 
+    width:100px;
+    grid-column: 3;
+}
+
+.mesaj_2_rand_3{
+    grid-column: 4;
+    width: 164px;
+    text-align-last:justify;
+}
+
+
+#curs_valutar, #val_lei{
+    height: 22.75px;
+    background-color: #34383C;
+    color: white;
+    font-size:19px;
+    
+}
+
+#curs_valutar {
+    width: 156px;
+    grid-column: 2;
+}
+
+#curs_valutar::placeholder { 
+    color:aliceblue;
+    opacity: 0.7;
+    text-align: center;
+  }
+
+#val_lei::placeholder { 
+    color:aliceblue;
+    opacity: 0.7;
+    text-align: center;
+  }
+
+
+.schimba_bani { 
+    grid-column: 2;
+    height: 30px;
+    width: 164px;
+    background-color: #34383C;
+    color: white;
+    border-color: #34383C;
+    font-size:21px;
+    border-radius: 10PX;
+}
+
+
+#select, #select2 {
+    width:164px;
+    background-color: #34383C;
+    color: white;
+    border-color: #34383C;
+    font-size:21px;
+    text-align: center;
+}
+
+#select {
+    grid-column: 2;
+}
+
+#select2 {
+    grid-column:4;
+}
+
+.input_lei {
+    grid-column: 1;
+    width: 174px;
+}
+
+#mesaj_eroare{
+    grid-column: 1;
+    height: 18.75px;
+    margin:0;
+    color:white;
+    font-size: 21px;
+}
+
+#rezultat_schimb{
+    grid-column: 1;
+    height: 18.75px;
+    margin: 0;
+    color:white;
+    font-size:21px;
+}
+
